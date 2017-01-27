@@ -1,0 +1,123 @@
+
+.clearfix::after{
+  content:"";
+  display: block;
+  clear:both;}
+
+.header {
+  position: fixed;
+  width:  100%;
+  height: 60px;
+  z-index:  999;
+  background: #c0c0c0;
+  box-shadow: 0 0 2px 0 #9e9e9e;
+}
+.visual{
+  padding-top: 80px; 
+}
+.header-title {
+  float: left;
+  margin-left: 30px;
+  line-height: 40px;
+  font-family: 'Tahoma';
+  font-size: 24px;
+}
+.header-nav {
+  float: right;
+  width: 45%;
+  padding-right: 20px; 
+}
+
+.header-nav-list {
+  list-style: none;
+}
+.header-nav-list-item {
+  float: left;
+  width: 25%;
+
+}
+.header-nav-list-item > a {
+  line-height: 60px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Tahoma';
+  font-size: 12px;
+  transition: .3s 0s;
+  color: #3f3f3f;
+}
+.header-nav-list-item > a:hover {
+  color: #660000;
+}
+
+.top-title{
+  height: 700px;
+  width: 1040px;
+  background-image: url("../img/kadai_t.png");
+  background-size:cover;
+  margin: 0 auto;
+  }
+
+.main{
+  height: 400px;
+  width: 990px;
+  margin: 0 auto;
+  background-color: #e9e9e9;
+}
+.heading{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 120px;
+  color: #5f5d60;
+}
+.breads {
+  display: flex;
+  justify-content: space-around;
+  width: 1040px;
+  margin: 0 auto;
+  }
+.bread {
+  height: 700px;
+  width: 25%;
+
+}
+.bread-photo01{
+  height: 300px;
+  background-size: cover;
+}
+.bread-photo01 img{
+  height: 300px;
+
+}
+.bread-photo02{
+
+  height: 300px;
+  margin-left: 40px;
+}
+.bread-photo02 img{
+  height: 300px;
+}
+
+.bread-photo03{
+
+  height: 300px;
+  margin-left: 80px;
+}
+.bread-photo03 img{
+  height: 300px;
+}
+.bread-photo01 h1{font-family:'Tahoma' }
+.bread-photo02 h1{font-family:'Tahoma' }
+.bread-photo03 h1{font-family:'Tahoma' }
+.copy {
+  height: 50px;
+  width: 1040px;
+}
+.copy p{
+  font-size: 12px;
+    text-align:center;
+    margin: 0 auto;
+}
+.txt-contents{
+  padding-top: 85px;
+
+}
